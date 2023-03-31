@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace Artemis.Plugins.Games.StardewValley.GSI.DataModels
 {
-    public enum StardewValleyWeather
+    public class StardewValleyWeather
     {
-        None = -1,
-        Sun = 0,
-        Rain = 1,
-        Storm = 2,
-        Snow = 3,
-        Debris = 4,
-        Festival = 5
+        public bool IsSnowing { get; set; }
+        public bool IsRaining { get; set; }
+        public bool IsDebrisWeather { get; set; }
+        public bool IsLightning { get; set; }
     }
 }

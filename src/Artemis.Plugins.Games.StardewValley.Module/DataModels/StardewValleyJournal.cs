@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Artemis.Plugins.Games.StardewValley.DataModels
 {
-    public enum StardewValleySeason
+    public class StardewValleyJournal
     {
-        Unknown = -1,
-        Spring,
-        Summer,
-        Fall,
-        Winter
+        public bool QuestAvailable { get; set; }
+        public bool NewQuestAvailable { get; set; } 
+        public int QuestCount { get; set; }
     }
 }

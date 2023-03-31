@@ -37,17 +37,11 @@ namespace Artemis.Plugins.Games.StardewValley.GSI
 
         private void GameLoop_UpdateTicked(object? sender, UpdateTickedEventArgs e)
         {
-            var isDamage = false;
 
             //this.Monitor.Log($"time of day: {Game1.timeOfDay} - Day or Night: {Game1.dayOrNight()}", LogLevel.Debug);
 
-            if (currentHealth < Game1.player.health)
-            {
-                isDamage = true;
-                currentHealth = Game1.player.health;
-            }
 
-            string json = JsonConvert.SerializeObject(new StardewValleyDataModel(isDamage));
+            string json = JsonConvert.SerializeObject(new StardewValleyDataModel());
             
             //this.Monitor.Log($"{json}", LogLevel.Debug);
             ArtemisWebClient.SendJson(json, this.Monitor);

@@ -9,10 +9,10 @@ namespace Artemis.Plugins.Games.StardewValley.GSI.DataModels
 {
     public enum StardewValleySeason
     {
-        None = -1,
-        Spring = 0,
-        Summer = 1,
-        Fall = 2,
-        Winter = 3
+        Unknown = -1,
+        Spring,
+        Summer,
+        Fall,
+        Winter
     }
 }

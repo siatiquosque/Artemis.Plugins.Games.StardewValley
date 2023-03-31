@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
-	<GamePath></GamePath>
+	  <GamePath>D:\XboxGames\Stardew Valley\Content</GamePath>
   </PropertyGroup>
 
   <ItemGroup>

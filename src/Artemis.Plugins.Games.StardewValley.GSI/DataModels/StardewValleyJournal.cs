@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Artemis.Plugins.Games.StardewValley.GSI.DataModels
 {
-    public enum StardewValleyStatusGame
+    public class StardewValleyJournal
     {
-        Title = -1,
-        InGame = 0,
-        Menu = 1
+        public bool QuestAvailable { get; set; }
+        public bool NewQuestAvailable { get; set; } 
+        public int QuestCount { get; set; }
     }
 }

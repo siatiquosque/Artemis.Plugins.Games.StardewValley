@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Artemis.Plugins.Games.StardewValley.DataModels
+namespace Artemis.Plugins.Games.StardewValley.GSI.DataModels
 {
     public enum GameStatus
     {
