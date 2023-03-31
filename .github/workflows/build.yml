@@ -24,3 +24,10 @@ jobs:
           name: Artemis.Plugins.Games.StardewValley.Module
           path: src/Artemis.Plugins.Games.StardewValley.Module/bin/Release/net6.0/publish
           if-no-files-found: error
+
+      - name: Upload Artemis Stardew Valley GSI
+        uses: actions/upload-artifact@v3
+        with:
+          name: Artemis.Plugins.Games.StardewValley.GSI
+          path: src/Artemis.Plugins.Games.StardewValley.GSI/artifactory/Artemis.Plugins.Games.StardewValley.GSI.zip
+          if-no-files-found: error
