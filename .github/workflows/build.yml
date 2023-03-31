@@ -16,26 +16,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Plugins
-        run: dotnet publish -c Release src/Artemis.Plugins.Games.StardewValley.sln
+        run: dotnet publish -c Release src/Artemis.Plugins.Games.StardewValley.Module/Artemis.Plugins.Games.StardewValley.Module.csproj
 
       - name: Upload Artemis Stardew Valley Module
         uses: actions/upload-artifact@v3
         with:
           name: Artemis.Plugins.Games.StardewValley.Module
-          path: src/Artemis.Plugins.Games.StardewValley.Module/bin/x64/Release/net6.0/publish
+          path: src/Artemis.Plugins.Games.StardewValley.Module/bin/Release/net6.0/publish
           if-no-files-found: error
-
-      - name: Upload Artemis Stardew Valley GSI
-        uses: actions/upload-artifact@v3
-        with:
-          name: Artemis.Plugins.Games.StardewValley.GSI
-          path: src/Artemis.Plugins.Games.StardewValley.GSI/bin/Release/net5.0/publish
-          if-no-files-found: error
-          
-      # You'll need to add each plugin as an artifact here
-      #Example:
-      # - name: Upload
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: MyArtifactName
-      #     path: src/MyPluginFolder/bin/x64/Release/net6.0/publish
