@@ -1,0 +1,15 @@
+{
+  "Guid": "298A471B-4188-433B-8E8B-B7238192921F",
+  "Name": "Stardew Valley",
+  "Description": "Plugin Description",
+  "Author": "Diekase",
+  "Website": "",
+  "Repository": "",
+  "Icon": "icon.png",
+  "Version": "1.0.0.0",
+  "Main": "Artemis.Plugins.Games.StardewValley.Module.dll",
+  "AutoEnableProperties": true,
+  "RequiresAdmin": false,
+  "Platforms": "Windows,Linux,OSX",
+  "Api": "1.0.0"
+}
