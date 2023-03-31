@@ -1,10 +1,10 @@
 {
   "Guid": "298A471B-4188-433B-8E8B-B7238192921F",
   "Name": "Stardew Valley",
-  "Description": "Plugin Description",
+  "Description": "A game module for Stardew Valley",
   "Author": "Diekase",
-  "Website": "",
-  "Repository": "",
+  "Website": "https://artemis-rgb.com/",
+  "Repository": "https://github.com/siatiquosque/Artemis.Plugins.Games.StardewValley",
   "Icon": "icon.png",
   "Version": "1.0.0.0",
   "Main": "Artemis.Plugins.Games.StardewValley.Module.dll",
