@@ -29,5 +29,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Artemis.Plugins.Games.StardewValley.GSI
-          path: src/Artemis.Plugins.Games.StardewValley.GSI/artifactory/Artemis.Plugins.Games.StardewValley.GSI.zip
+          path: |
+            src/Artemis.Plugins.Games.StardewValley.GSI/artifactory
           if-no-files-found: error

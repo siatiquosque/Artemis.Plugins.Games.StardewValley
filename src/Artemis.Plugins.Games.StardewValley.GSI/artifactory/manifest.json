@@ -1,0 +1,10 @@
+{
+  "Name": "Artemis.Plugins.Games.StardewValley.GSI",
+  "Author": "Diekase",
+  "Version": "1.0.0",
+  "Description": "Send Game data to Artemis Plugin",
+  "UniqueID": "Artemis.StardewValley.GSI",
+  "EntryDll": "Artemis.Plugins.Games.StardewValley.GSI.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
